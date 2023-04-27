@@ -1,0 +1,25 @@
+{% extends 'main/general.html' %}
+{% load static %}
+
+
+{% block title %}Главная{% endblock %}
+
+
+{% block content %}
+<header class="header" style="background-image: url('{% static 'main/home.png' %}');">
+	<div class="container-div">
+		<div class="row">
+			<div class="col-lg-6 offset-lg-3 header-content">
+				<h1>ZeroNiki</h1>
+				<h4>Программист который любит изучать компьютерные технологии</h4>
+				<a href="about/" target="_blank"><button class="btn-main">Подробнее</button></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="overlay">
+
+
+	</div>
+</header>
+{% endblock %}
